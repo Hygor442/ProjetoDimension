@@ -414,3 +414,37 @@ footer ion-icon{
     align-items: center;
     justify-content: center;
 }
+
+
+/*responsividade*/
+/*ceulular*/
+@media only screen and (max-width: 600px){
+    /*geral*/
+    .container-item{
+        width: 95%;
+        height: 80vh;
+        margin-bottom: 20px;
+    }
+    /*header*/
+    #container-cont{
+        width: 90%;
+        padding: 10px 0;
+    }
+    .container-header nav{
+        background-color: transparent;
+        display: inline-block;
+        margin-top: 50px;
+        width: 90%;
+        font-family: "Roboto",sans-serif;
+        text-transform: uppercase;
+        color: #f4f4f4;
+    }
+    /*footer*/
+    footer .input{
+        width: 245px;   
+    }
+    .up{
+        right: 50px;
+        bottom: 75px;
+    }
+}
