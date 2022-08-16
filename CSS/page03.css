@@ -43,6 +43,7 @@ body{
     border-radius: 10px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .container-conteudo{
     width: 90%;
@@ -106,16 +107,17 @@ body{
 
 #container-cont::after, #container-cont::before{
     content: "";
-    border: 2px solid #f4f4f4;
+    border: 1px solid #f4f4f4;
+    background: #f4f4f4;
 }
 #container-cont::after{
     position: absolute;
-    height: 48px;
+    height: 50px;
     top: -52px;
 }
 #container-cont::before{
     position: absolute;
-    bottom: -54px;
+    bottom: -52px;
     height: 50px;
 }
 
@@ -143,6 +145,14 @@ body{
     width: 100%;
     border: 2px solid #f4f4f4;
     cursor: pointer;
+}
+
+.container-header nav ul li:nth-child(2){
+    border-left: none;
+    border-right: none;
+}
+.container-header nav ul li:nth-child(4){
+    border-left: none;
 }
 .container-header nav ul li:nth-child(1){
     border-top-left-radius: 4px;
@@ -220,6 +230,7 @@ main .container-item:nth-child(2){
 }
 #gallery nav ul{
     display: flex;
+    width: 100%;
 }
 #gallery nav ul li{
     border-radius: 3px;
@@ -422,7 +433,7 @@ footer ion-icon{
     /*geral*/
     .container-item{
         width: 95%;
-        height: 80vh;
+        height: 100vh;
         margin-bottom: 20px;
     }
     /*header*/
@@ -438,6 +449,25 @@ footer ion-icon{
         font-family: "Roboto",sans-serif;
         text-transform: uppercase;
         color: #f4f4f4;
+    }
+    /*main*/
+    /*galeria*/
+    #gallery nav ul{
+
+    }
+    #gallery nav ul li{
+        border-radius: 3px;
+        padding: 5px 10px;
+        margin-left: 10px;
+        border: 2px solid #f4f4f4;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: .2s ease-in;
+    }
+    /*serviços*/
+    #service-icons{
+        grid-auto-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     /*footer*/
     footer .input{
