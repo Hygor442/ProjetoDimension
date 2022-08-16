@@ -451,14 +451,17 @@ footer ion-icon{
     }
     /*main*/
     /*galeria*/
+    #gallery nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
     #gallery nav ul li{
-        border-radius: 3px;
-        padding: 5px 5px;
-        margin-left: 5px;
-        border: 2px solid #f4f4f4;
-        text-transform: uppercase;
-        cursor: pointer;
-        transition: .2s ease-in;
+        padding: 10px 15px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        
     }
     /*serviços*/
     #service-icons{
