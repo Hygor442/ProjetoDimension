@@ -452,9 +452,6 @@ footer ion-icon{
     }
     /*main*/
     /*galeria*/
-    #gallery nav ul{
-
-    }
     #gallery nav ul li{
         border-radius: 3px;
         padding: 5px 10px;
@@ -471,7 +468,7 @@ footer ion-icon{
     }
     /*footer*/
     footer .input{
-        width: 245px;   
+        width: 100%;
     }
     .up{
         right: 50px;
