@@ -43,7 +43,6 @@ body{
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    position: relative;
 }
 .container-conteudo{
     width: 90%;
@@ -434,7 +433,7 @@ footer ion-icon{
     .container-item{
         width: 95%;
         height: 100vh;
-        margin-bottom: 20px;
+        margin-bottom: 80px;
     }
     /*header*/
     #container-cont{
@@ -460,6 +459,7 @@ footer ion-icon{
         text-transform: uppercase;
         cursor: pointer;
         transition: .2s ease-in;
+        font-size: .9rem;
     }
     /*serviços*/
     #service-icons{
