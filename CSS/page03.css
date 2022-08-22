@@ -477,3 +477,25 @@ footer ion-icon{
         bottom: 75px;
     }
 }
+
+/*tablet*/
+@media only screen and (max-width: 768px){
+    /*geral*/
+    .container-item{
+        width: 95%;
+        height: 100vh;
+        margin-bottom: 80px;
+    }
+    /*header*/
+    #container-cont{
+        width: 90%;
+        padding: 10px 0;
+    }
+    .container-header nav{
+        width: 90%;
+    }
+    /*footer*/
+    footer .input{
+        width: 100%;
+    }
+}
