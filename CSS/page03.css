@@ -450,6 +450,13 @@ footer ion-icon{
         color: #f4f4f4;
     }
     /*main*/
+    /*about*/
+    .icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     /*galeria*/
     #gallery nav ul{
         display: flex;
@@ -469,9 +476,6 @@ footer ion-icon{
         grid-template-columns: 1fr 1fr;
     }
     /*footer*/
-    footer{
-        margin-top: 50px;
-    }
     footer .input{
         width: 100%;
     }
