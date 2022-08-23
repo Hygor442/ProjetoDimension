@@ -469,6 +469,9 @@ footer ion-icon{
         grid-template-columns: 1fr 1fr;
     }
     /*footer*/
+    footer{
+        margin-top: 50px;
+    }
     footer .input{
         width: 100%;
     }
